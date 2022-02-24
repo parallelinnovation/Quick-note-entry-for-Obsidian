@@ -7,6 +7,10 @@ Log your day quickly with this simple GUI that writes remotely to your Obsidian 
 
 # Getting Started
 
+## Dependancies
+
+You must have PyQt5 installed. If not already installed, `python -m pip install PyQt5`
+
 1. Open the obsidianQuickNoteEntry.py file in a text editor or IDE. 
 2. **Pick which date format you use for your daily notes**. Keep `DateFormat = 1` unchanged if your daily notes are in the format: **MMMM Do, YYYY (November 22, 2021)**. If your daily notes are in the format **YYYY-MM-DD (2021-11-22)**, change the value to 2. 
 3. Copy your Obsidian folder path and paste it between the quotation marks in `ObsidianVaultFolder = "" `
